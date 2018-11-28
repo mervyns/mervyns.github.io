@@ -1,0 +1,14 @@
+{
+  "version": "1.0",
+  "name": "mervyn tan",
+  "description": "Mervyn Tan's Portfolio for Web Development and Other Fun Projects",
+  "icons": {
+    "60": "/icons-df582601a8acf3d1680f21a26a4e11b6/firefox_app_60x60.png",
+    "128": "/icons-df582601a8acf3d1680f21a26a4e11b6/firefox_app_128x128.png",
+    "512": "/icons-df582601a8acf3d1680f21a26a4e11b6/firefox_app_512x512.png"
+  },
+  "developer": {
+    "name": null,
+    "url": null
+  }
+}
