@@ -1,376 +1,84 @@
-- title: Ocean Protocol
+- title: FitNest
   slug: '/oceanprotocol/'
   img: '../src/images/portfolio-oceanprotocol-01.png'
   description: >
-    Since 2017 I'm leading the UI design & development of Ocean Protocol, iterating on a components-based UI design system spanning all of Ocean Protocol's web properties. Additionally, I conceptualize, execute and iterate on the creative and visual direction of the Ocean Protocol brand.
+    FitNest started out as a project during my Web Development Immersive (WDI) in General Assembly Singapore. It was originally meant as a fitness and nutrition tracker app and was built on a simple framework of Express on the Back End, React-Views for the Front-End and PostGreSQL as the database.
 
-    Most web interfaces are single-page JavaScript applications built with React, pulling their data from JSON files and various micro services. All design & development is embedded in a continous deployment process via GitHub & Travis.
+    However, as I am a fitness enthusiast and attend (and lead) a few bootcamps regularly, I found that there was a better use for FitNest as a Bootcamp / Fitness Activity organizer. I decided to rebuild FitNest from scratch, with a new set of User Stories as well as a improved Tech Stack.
 
-    Initial website in collaboration with [Balance](https://balance.io/). Key visuals in collaboration with [Wojciech Hupert](https://twitter.com/wojciechhupert).
+    FitNest is currently built using React/Redux on the Front-End, GraphQL as the Query Language, and MongoDB for the database. It is currently deployed in production and is being used by the various fitness groups that I join for activity tracking and planning purposes.
   links:
-    - title: oceanprotocol.com
+    - title: fitnest.tech
       type: website
-      url: https://oceanprotocol.com
-    - title: docs.oceanprotocol.com
-      type: website
-      url: https://docs.oceanprotocol.com
-    - title: Styleguide
-      url: https://oceanprotocol.com/art
-    - title: '@oceanprotocol/art'
+      url: https://fitnest.tech
+    - title: '@fitnest/docs'
       type: github
-      url: https://github.com/oceanprotocol/art
-    - title: '@oceanprotocol/docs'
-      type: github
-      url: https://github.com/oceanprotocol/docs
+      url: https://github.com/fitnest
   techstack:
     - Sketch
-    - Affinity Designer
     - React
-    - Gatsby
+    - Redux
     - HTML
-    - SCSS
     - JavaScript
-    - Travis
-    - AWS S3
-    - Cloudflare
+    - Materialize CSS
+    - GraphQL
+    - MongoDB
+    - Heroku
 
-- title: IPDB
+- title: friilii
   slug: '/ipdb/'
   img: '../src/images/portfolio-ipdb-01.png'
   description: >
-    From 2015–2017 I was leading the UI design & development of all IPDB web properties and additonally iterated on the creative and visual direction of the IPDB brand.
+    friilii was conceptualized as a P2P Insurance Portal for Freelancers and those employed in the Gig Economy. This was done as my keystone project for the Web Development Immersive in General Assembly Singapore.
 
-    The main website is a static site built with Jekyll and a custom Gulp-based build pipeline in front of it. All design & development is embedded in a continous deployment process via GitHub & Travis.
+    As the gig economy grows, many workers do not enjoy the same health insurance benefits that traditionally employed workers have. It would also be excessively expensive for them to purchase their own insurance, as they do not enjoy the economies of scale of large corporations/MNCs.
 
-    Branding and key visuals in collaboration with [Wojciech Hupert](https://twitter.com/wojciechhupert).
+    Hence, I decided to build a portal where people could band together and insure each other in the same way a crowdfunding or crowdsharing model works.
 
   techstack:
     - Sketch
-    - Jekyll
-    - Gulp
+    - React
+    - Redux
     - HTML
-    - SCSS
     - JavaScript
-    - Travis
-    - AWS S3
-    - Cloudflare
-    - 3Scale
+    - Materialize CSS
+    - GraphQL
+    - MySQL
+    - Heroku
+
 
   links:
-    - title: Link
-      url: https://ipdb.io
-    - title: Styleguide
-      url: https://ipdb.io/styleguide/
+    - title: Visit friilii.tech
+      type: website
+      url: https://friilii.tech
     - title: GitHub
-      url: https://github.com/ipdb/website
+      url: https://github.com/friilii
 
-- title: Berlin Innovation Ventures
-  slug: '/biv/'
-  img: '../src/images/portfolio-biv-01.png'
+- title: Ready Up; Meet Up - RUMU
+  slug: '/rumu/'
+  img: '../src/images/portfolio-rumu-01.png'
   description: >
-    I designed & developed the website and a basic branding for the Berlin-based VC firm Berlin Innovation Ventures. The main website is a static site built with Jekyll and a custom Gulp-based build pipeline in front of it.
+    Ready Up; Meet Up (RUMU) was a group project done during the Web Development Immersive at General Assembly Singapore. My fellow group members were LJ and Chris, 2 extremely talented individuals with whom I had the opportunity to work together with.
+
+    The concept behind RUMU was basically that we wanted to find a common meeting place for groups that were located equidistant from all group members.
+
+    We worked with the Google Maps API in order to enable this, and also leveraged on Google Maps to suggest places to meet once we have triangulated the central location. We also implemented real-time tracking and updating of travel time for each group member to get to the meeting location.
+
+    Our key learning points from this project were about collaborative creation in a group environment, resolving merge conflicts, as well as working with Google APIs.
 
   techstack:
-    - Sketch
-    - Jekyll
-    - Gulp
+    - Ruby On Rails
+    - Javascript
+    - Bootstrap
     - HTML
     - SCSS
-    - JavaScript
+    - PostgreSQL
+    - Heroku
 
   links:
-    - title: Link
-      url: http://berlininnovation.vc
-
-- title: '9984 >> Summit 2017'
-  slug: '/9984/'
-  img: '../src/images/portfolio-9984-01.png'
-  links:
-    - title: Link
-      url: https://2017.9984.io
-    - title: Styleguide
-      url: https://2017.9984.io/styleguide/
+    - title: Try RUMU on Heroku
+      type: website
+      url: https://project-3-rumu.herokuapp.com
     - title: GitHub
-      url: https://github.com/9984/2017.9984.io
-  description: >
-    In 2017 I was leading the UI design & development for the 9984 >> Summit, the first joint summit of BigchainDB & IPDB. Additionally, I conceptualized, executed and iterated on the creative and visual direction of the 9984 brand.
-
-    The main website is a static site built with Jekyll and a custom Gulp-based build pipeline in front of it. All design & development is embedded in a continous deployment process via GitHub & Travis.
-
-    Branding and key visuals in collaboration with [Cristina Vulpe](https://www.linkedin.com/in/cristina-vulpe-41469262) & [Wojciech Hupert](https://twitter.com/wojciechhupert).
-  techstack:
-    - Sketch
-    - Jekyll
-    - Gulp
-    - HTML
-    - SCSS
-    - JavaScript
-    - Travis
-    - AWS S3
-    - Cloudflare
-
-- title: BigchainDB
-  slug: '/bigchaindb/'
-  img: '../src/images/portfolio-bigchaindb-01.png'
-  description: >
-    Since 2016 I'm leading the UI design & development of all BigchainDB web properties. I created the initial BigchainDB brand and further conceptualize, execute and iterate on the creative and visual direction of BigchainDB. This includes creating and iterating on a components-based UI design system for all of BigchainDB's web properties.
-
-    The main website is a static site built with Jekyll and a custom Gulp-based build pipeline in front of it, pulling data from various external sources and microservices. All design & development is embedded in a continous deployment process via GitHub & Travis.
-
-    Branding & key visuals in collaboration with [Wojciech Hupert](https://twitter.com/wojciechhupert).
-
-  techstack:
-    - Sketch
-    - Affinity Designer
-    - Illustrator
-    - Jekyll
-    - Gulp
-    - HTML
-    - SCSS
-    - JavaScript
-    - Travis
-    - AWS S3
-    - Cloudflare
-
-  links:
-    - title: Link
-      url: https://www.bigchaindb.com
-    - title: Styleguide
-      url: https://www.bigchaindb.com/styleguide/
-    - title: GitHub
-      url: https://github.com/bigchaindb/site
-    - title: Dribbble
-      url: https://dribbble.com/shots/2522184-BigchainDB-site
-
-- title: ChartMogul
-  slug: '/chartmogul/'
-  img: '../src/images/portfolio-chartmogul-01.png'
-  description: >
-    From 2015–2017 I was co-designing and leading the UI design & development of various ChartMogul web properties. This included the creation of a components-based UI design system and implementing it across all web touch points.
-
-    The main website with its landing pages is a static site built with Jekyll and a custom Gulp-based build pipeline in front of it, while the blog is running on WordPress with its own custom theme. All embedded in an automated development & deployment workflow via GitHub and Travis.
-
-    Besides designing and implementing new features, I maintained the front-end of the ChartMogul application and implemented the UI design system by refactoring most of its front-end codebase.
-
-    All branding, design & key visuals directed by Michelle Myung.
-
-  techstack:
-    - Sketch
-    - Affinity Designer
-    - Illustrator
-    - HTML
-    - SCSS
-    - JavaScript
-    - PHP
-    - Jekyll
-    - Gulp
-    - WordPress
-    - Travis
-    - AWS S3
-    - Cloudflare
-    - Ruby on Rails
-    - Backbone.js
-
-  links:
-    - title: Link
-      url: https://chartmogul.com/
-    - title: Styleguide
-      url: https://chartmogul.com/styleguide/
-    - title: Dribbble
-      url: https://dribbble.com/kremalicious/projects/311439-ChartMogul
-
-- title: ShareTheMeal
-  slug: '/sharethemeal/'
-  img: '../src/images/portfolio-sharethemeal-01.png'
-  description: >
-    ShareTheMeal is an app from the United Nations World Food Programme (WFP) that enables people to "share their meals" with children in need. In 2015 I was consulting, co-designing and leading the front-end development of the ShareTheMeal website and various parts of the ShareTheMeal apps for iOS & Android.
-
-    The main website is a static site built with Jekyll and a custom Gulp-based build pipeline in front of it, embedded in a continous deployment process via GitHub & Travis.
-
-  techstack:
-    - Sketch
-    - Illustrator
-    - Jekyll
-    - Gulp
-    - HTML
-    - SCSS
-    - JavaScript
-    - Travis
-    - AWS S3
-    - Cloudflare
-    - Node.js
-
-  links:
-    - title: Link
-      url: https://sharethemeal.org/
-
-- title: ezeep
-  slug: '/ezeep/'
-  img: '../src/images/portfolio-ezeep-01.png'
-  description: >
-    From 2012–2015 I worked at ezeep, where I helped creating an unprecedented, market-leading & award-winning user experience based on the principles of emotional design way ahead of all competitors. This included conceptualizing executing, and iterating on the creative & visual direction of the ezeep brand.
-
-    I was leading the UI design & development of all ezeep touch points and - as a product designer - defined the ezeep product based on user and market research in an iterative process. On top of that, I designed and helped building all app experiences of ezeep on Windows, macOS, iOS, and Android.
-
-    ezeep was acquired by [Cortado AG](https://www.cortado.com) in 2015 and became part of their [ThinPrint Cloud Services](https://www.thinprintcloud.com) suite of products.
-
-  techstack:
-    - Photoshop
-    - Illustrator
-    - InDesign
-    - Sketch
-    - HTML
-    - SCSS
-    - JavaScript
-    - PHP
-    - WordPress
-    - Travis
-    - AWS
-    - Cloudflare
-    - Node.js
-    - Backbone.js
-    - Electron
-
-  links:
-    - title: Info
-      url: https://kremalicious.com/enterprise-software-sucks/
-    - title: Dribbble
-      url: https://dribbble.com/kremalicious/projects/84318-ezeep
-
-- title: Mr. Reader
-  slug: '/mrreader/'
-  img: '../src/images/portfolio-mrreader-01.png'
-  description: >
-    While working with indy iOS developer Curious Times in 2012, I designed the app icon, a custom theme, and various promotion materials for Mr. Reader, a powerful and highly loved RSS feed reader for iPad.
-  techstack:
-    - Photoshop
-
-- title: iPixelPad
-  slug: '/ipixelpad/'
-  img: '../src/images/portfolio-ipixelpad-01.png'
-  description: >
-    So, what to do when everyone seem to release iPad icons but fail to include some crisp small size icons? Pushing the pixels for yourself of course. So here’s my take on the smaller sizes of an Apple iPad icon, called iPixelPad.
-
-    Released as a goodie on [kremalicious.com](https://kremalicious.com/ipixelpad/).
-
-  techstack:
-    - Photoshop
-
-  links:
-    - title: Download
-      url: https://kremalicious.com/ipixelpad/
-
-- title: Out Of Whale Oil
-  slug: '/outofwhaleoil/'
-  img: '../src/images/portfolio-outofwhaleoil-01.jpg'
-  description: >
-    Tribute wallpaper pack inspired by the Futurama movie _Into The Wild Green Yonder_. Released as a goodie on [kremalicious.com](https://kremalicious.com/out-of-whale-oil/).
-  links:
-    - title: Download
-      url: https://kremalicious.com/out-of-whale-oil/
-  techstack:
-    - Photoshop
-
-- title: Martin-Luther-Universität Halle-Wittenberg
-  slug: '/unihalle/'
-  img: '../src/images/portfolio-unihalle-01.png'
-  description: >
-    From 2009–2012 I worked at the IT services department of [Martin-Luther-Universität Halle-Wittenberg](http://www.uni-halle.de) where I conceptualized, designed & implemented numerous in-house and public facing interfaces for thousands of students and staff.
-
-    Additionally, I conceptualized, designed, created, and maintained the blog network & community for all students & staff.
-
-  techstack:
-    - Photoshop
-    - Illustrator
-    - HTML
-    - SCSS
-    - JavaScript
-    - PHP
-    - Ruby on Rails
-    - WordPress
-    - Ilias
-    - Stud.IP
-
-  links:
-    - title: Link
-      url: http://blogs.urz-uni-halle.de
-    - title: Dribbble
-      url: https://dribbble.com/kremalicious/projects/690029-MLU
-
-- title: Coffee Cup
-  slug: '/coffeecup/'
-  img: '../src/images/portfolio-coffeecup-01.png'
-  description: >
-    Desktop icons showing the fuel of most designers. Released as a goodie
-    on [kremalicious.com](https://kremalicious.com/coffee-cup-icon/).
-
-  techstack:
-    - Photoshop
-
-  links:
-    - title: Download
-      url: https://kremalicious.com/coffee-cup-icon/
-
-- title: Project Purple
-  slug: '/projectpurple/'
-  img: '../src/images/portfolio-projectpurple-01.png'
-  description: >
-    It had been revealed the original iPhone was developed in a locked down building under the name Project Purple and because of the secrecy involved, the team decorated the building with Fight Club references. Perfect story to create a wallpaper out of it.
-
-    Released as a goodie on [kremalicious.com](https://kremalicious.com/projectpurple/).
-
-  techstack:
-    - Photoshop
-
-  links:
-    - title: Download
-      url: https://kremalicious.com/projectpurple/
-
-- title: Allinnia Creative Group
-  slug: '/allinnia/'
-  img: '../src/images/portfolio-allinnia-01.png'
-  description: >
-    In 2009 I created the branding, website, and various key visuals for professional music production studio Allinnia Creative Group, reflecting their own musical compositions.
-
-    The website was built from scratch as a simple PHP application with a store and music listening functionality.
-  techstack:
-    - Photoshop
-    - HTML
-    - CSS
-    - JavaScript
-    - PHP
-
-- title: Aperture Loupe
-  slug: '/apertureloupe/'
-  img: '../src/images/portfolio-apertureloupe-01.png'
-  description: >
-    When Apple released their professional photography app _Aperture_ in 2008, the loupe tool in there was something really novel and just fun to play with. Inspired by that, I created this macOS desktop icon.
-
-  techstack:
-    - Photoshop
-
-- title: Adiumeetie
-  slug: '/adiumeetie/'
-  img: '../src/images/portfolio-adiumeetie-01.png'
-  description: >
-    A macOS replacement desktop icon created in 2009 for the popular Mac IM client Adium following the style of atebit’s excellent Tweetie for Mac icon. Released as a goodie on [kremalicious.com](https://kremalicious.com/adiumeetie/).
-
-  techstack:
-    - Photoshop
-
-  links:
-    - title: Download
-      url: https://kremalicious.com/adiumeetie/
-
-- title: "Niépce's Camera Obscura"
-  slug: '/niepces-camera-obscura/'
-  img: '../src/images/portfolio-niepces-camera-obscura-01.jpg'
-  description: >
-    In 2008 I used the camera obscura as it was used by Nicéphore Niépce in 1826 to create an Aperture and iPhoto replacement icon.
-
-    Nicéphore Niépce made it first possible to preserve an image taken with a camera obscura in 1826 or 1827 by using a special mixture of bitumen on a glass or metal plate, naming it Heliography. This first preserved image 'View from the Window at Le Gras' is the one you can see in the iPhoto icon.
-  links:
-    - title: Info
-      url: https://kremalicious.com/niepces-camera-obscura-and-the-history-of-the-first-photograph/
-  techstack:
-    - Photoshop
+      url: https://github.com/lamesensei/unit-3-project
+      

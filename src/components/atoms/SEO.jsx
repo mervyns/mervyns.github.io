@@ -33,12 +33,8 @@ const query = graphql`
       social {
         Email
         Blog
-        Twitter
         GitHub
-        Dribbble
       }
-      gpg
-      addressbook
     }
   }
 `
@@ -79,12 +75,6 @@ const SEO = ({ project }) => (
           <meta property="og:description" content={description} />
           <meta property="og:image" content={`${meta.url}${image}`} />
 
-          {/* Twitter Card tags */}
-          <meta name="twitter:card" content="summary_large_image" />
-          <meta name="twitter:creator" content={meta.social.Twitter} />
-          <meta name="twitter:title" content={title} />
-          <meta name="twitter:description" content={description} />
-          <meta name="twitter:image" content={`${meta.url}${image}`} />
         </Helmet>
       )
     }}
